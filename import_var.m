@@ -1,0 +1,9 @@
+pointData=uiimport('-file');
+mData=pointData.data;
+mtext=pointData.textdata;
+mat=mData';
+coordx=(mat(1,:));
+coordy=(mat(2,:));
+coordz=(mat(3,:));
+ten=(mat(4,:));
+set(fMenu1,'enable','on');
